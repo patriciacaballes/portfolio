@@ -1,0 +1,23 @@
+.rotating-circle{
+    /* position: fixed;
+    z-index: 1; */
+    background-image: url("../../../assets/img/dev.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+
+    animation: animName 30s linear infinite;
+    /* height: 200px;
+    width: 200px; */
+}
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+   

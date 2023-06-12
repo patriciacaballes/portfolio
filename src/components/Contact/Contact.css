@@ -1,0 +1,70 @@
+.contact-page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 150px;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0% 10%;
+}
+.contact-page-container h1{
+    text-align: center;
+    word-spacing: 10px;
+    /* letter-spacing: 80%; */
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    color: #d89666;
+    /* -webkit-text-stroke: 0.5px #d89666; */
+      /* -webkit-text-fill-color: transparent; */
+      
+}
+
+.contact-page-container img{
+    width: 500px;
+    margin-right:-500px ;
+    margin-bottom: 100px;
+    animation: animate-rotate 20s infinite linear;
+    opacity: 0.4;
+}
+.contact-page-container .talk-project{
+    opacity: 0.4;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: flex-start;
+}
+.email h1{
+    font-size: 20px;
+    opacity: 1;
+}
+.info-contact{
+    display: flex;
+}
+@keyframes animate-rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media(min-width:900px){
+    .fill{
+     font-size: 8rem;
+    }
+    .welcome{
+     padding-top: 40px;
+    }
+    .contact-page-container img{
+        margin-right:-1000px ;
+    }
+
+}

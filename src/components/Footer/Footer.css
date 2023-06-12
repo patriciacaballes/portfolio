@@ -1,0 +1,15 @@
+.react-icons {
+   
+    gap: 40px;
+    vertical-align: middle;
+    color: #d89666;
+  }
+  .react-icons:hover {
+    scale: 1.2;
+    
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }

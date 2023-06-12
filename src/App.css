@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+
+html, body{
+  height: 0;
+  /* width: 100vw; */
+ 
+}
+*{ cursor: none;}
+/* Font */
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-BlackItalic.woff2") format("woff2"), url("../src/assets/font/Roboto-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-BoldItalic.woff2") format("woff2"), url("../src/assets/font/Roboto-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Black.woff2") format("woff2"), url("../src/assets/font/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Bold.woff2") format("woff2"), url("../src/assets/font/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Regular.woff2") format("woff2"), url("../src/assets/font/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Italic.woff2") format("woff2"), url("../src/assets/font/Roboto-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Medium.woff2") format("woff2"), url("../src/assets/font/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Thin.woff2") format("woff2"), url("../src/assets/font/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-ThinItalic.woff2") format("woff2"), url("../src/assets/font/Roboto-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-Light.woff2") format("woff2"), url("../src/assets/font/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-MediumItalic.woff2") format("woff2"), url("../src/assets/font/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../src/assets/font/Roboto-LightItalic.woff2") format("woff2"), url("../src/assets/font/Roboto-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
+
+*{
+  font-family: "Roboto";
+}
+
+
+body{
+  background-color: #181818;
+  font-family: "Roboto",sans-serif;
+  width:100vw;
+  /* height: 100%; */
+  overflow-x: hidden;
+}
+.App{
+  margin: 0;
+  padding: 20px;
+  /* width: 100vw; */
+
+}
+.noise::before{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  /* opacity: 1; */
+  opacity: .03;
+  z-index: 1500;
   pointer-events: none;
+  background: url("./assets/img/noise.gif");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+/* cursor */
+.cursor {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%);
+  border-radius: 50%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 111;
+  border: 1px solid #d89666;
+  transition: all 0.2s ease-out;
+  animation: moveCursor1 .5s infinite alternate;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.expand {
+  background: transparent;
+  animation: moveCursor2 .5s forwards;
+  border: 1px solid #d89666;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes moveCursor1 {
   from {
-    transform: rotate(0deg);
+      transform: scale(1);
   }
+
   to {
-    transform: rotate(360deg);
+      transform: scale(.8);
   }
 }
+
+@keyframes moveCursor2 {
+  0% {
+      transform: scale(1);
+  }
+
+  50% {
+      transform: scale(2);
+  }
+
+  100% {
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
+
+
+
+
+
