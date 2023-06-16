@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import find from "../../assets/img/find2.svg";
 import { Link } from "react-router-dom";
 import ContactForm from "./ContactForm/ContactForm";
+import mypic from "../../assets/img/patricia caballes.jpg";
 
 export default function Contact() {
   return (
@@ -14,9 +15,11 @@ export default function Contact() {
         <div>
           <ContactForm />
         </div>
-
-        <div className="find-out">
-          <img src={find} alt="" />
+        <div className="pic">
+          <img src={mypic} alt="an old car" id="my-pic"></img>
+          <div className="find-out">
+            <img src={find} alt="" id="find" />
+          </div>
         </div>
       </div>
 

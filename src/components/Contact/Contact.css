@@ -1,5 +1,5 @@
-.contact img{
-    width: 500px;
+.contact #find{
+    width: 200px;
     margin-right:-500px ;
     margin-bottom: 100px;
     animation: animate-rotate 20s infinite linear;
@@ -30,6 +30,61 @@
     font-weight: bolder;
     text-align: center;
 }
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%;
+    height: 100%; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;  */
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+
+
+
+
+
+
+
+
+/* Desktop */
+#my-pic{
+  --s: 8px;  /* size of the frame */
+  --b: 0.5px;   /* border thickness */
+  --w: 300px; /* width of the image */
+  --c: #D89666;
+  
+  width: var(--w);
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: calc(2*var(--s));
+  --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
+  background:
+    linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
+    linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
+  outline: calc(var(--w)/2) solid #0009;
+  outline-offset: calc(var(--w)/-2 - 2*var(--s));
+  transition: .4s;
+  cursor: pointer;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+}
+#my-pic:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: calc(var(--s)/-2);
+  --_i: calc(100% - 2*var(--s));
+  box-shadow: 5px 5px 5px #D89666;
+
+}
+
+
 
 
 @media(min-width:900px){
