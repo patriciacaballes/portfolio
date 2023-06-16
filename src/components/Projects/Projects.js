@@ -3,6 +3,8 @@ import "./Projects.css";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
 import arrow from "../../assets/img/arrow.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Projects() {
   return (
@@ -10,10 +12,8 @@ export default function Projects() {
       <Header />
       <div className="project-page">
         <div className="project-and-work">
-          <h1>
-            <Link className="h1-project" to="/projects">
-              My Projects and Works
-            </Link>
+          <h1 className="h1-project stroke" data-aos="flip-down" data-aos-duration="3000">
+            My Projects
           </h1>
         </div>
         <div className="project-page-container">

@@ -7,12 +7,13 @@
     flex-direction: column;
     overflow: hidden;
 }
-.welcome{
-  /* height: 100vh; */
+.home .welcome{
+
+  padding:40px 0px 0px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-
+  height: 100vh;
+  justify-content: center;
 }
 .intro {
     /* margin-top: 5rem; */
@@ -30,11 +31,12 @@
   }
   
   .stroke {
-    font-size: 3rem;
+    font-size: 4.5rem;
     -webkit-text-stroke: 0.5px #D89666;
     -webkit-text-fill-color: transparent;
     opacity: 0;
     font-weight: bold;
+    line-height: 4rem;
   }
   
   .one {
@@ -67,14 +69,21 @@
       transform: translateX(0);
     }
   }
+  .about{
+    justify-content: space-evenly;
+  }
 
   @media(min-width:900px){
    .fill{
     font-size: 8rem;
    }
-   .welcome{
-    padding-top: 40px;
+   .home{
+   margin-top: 0px;
    }
+   
+  .stroke {
+    font-size: 5rem;
+  }
  
     
 }

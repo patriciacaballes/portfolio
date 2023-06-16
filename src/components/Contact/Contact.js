@@ -7,24 +7,16 @@ import ContactForm from "./ContactForm/ContactForm";
 
 export default function Contact() {
   return (
-    <div>
+    <div className="contact">
       <Header />
-      <div className="contact-page">
-        <div className="contact-page-container">
-          <div className="info-contact">
-            <div className="email">
-              <ContactForm />
-              {/* <p>Find out more about me on my social media </p>
-              <p>I’m looking forward to hear from you!</p> */}
-              {/* <Link to="mailto:patriciacaballes04@gmail.coms" style={{ textDecoration: "none" }}>
-                <h1>patriciacaballes04@gmail.com</h1>
-              </Link> */}
-              <p>Feel free to discuss a new project.</p>
-            </div>
-            <div className="find-out">
-              <img src={find} alt="" />
-            </div>
-          </div>
+      <h2 className="stroke">Contact</h2>
+      <div className="contact-form">
+        <div>
+          <ContactForm />
+        </div>
+
+        <div className="find-out">
+          <img src={find} alt="" />
         </div>
       </div>
 

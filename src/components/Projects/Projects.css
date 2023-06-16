@@ -11,13 +11,15 @@
   padding-bottom: 100px;
   border-bottom: 1px dashed #d89666;
 }
-.project-and-work h1 .h1-project{
-  text-decoration: none;
-  color: #d89666;
-  font-size: 60px;
-  font-weight: lighter;
-  font-family: 'Ogg';
-  text-decoration: .5px line-through;
+.project-and-work .h1-project{
+  font-size: 6rem;
+  -webkit-text-stroke: 0.5px #D89666;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  font-weight: bolder;
+  text-align: center;
+  /* font-family: 'Ogg'; */
+  /* text-decoration: .5px line-through; */
 
 }
 
@@ -35,14 +37,14 @@
   border-bottom: 1px dashed #d89666;
 }
 .my-projects h1{
-  font-family: 'Ogg';
-  font-size: 220px;
+  /* font-family: 'Ogg'; */
+  font-size: 8rem;
   font-weight: lighter;
   line-height: 80%;
   text-transform: capitalize;
 }
 .project-page a {
-  color: #642420;
+  color: #D89666;
   text-decoration: none;
 }
 .project-page-container{
@@ -90,14 +92,14 @@
 .project-page-item-header p{
   font-size: 10px;
   font-weight: 500;
-  font-family: 'Inter';
+  /* font-family: 'Inter'; */
   width: 50%;
   text-transform: uppercase;
 }
 .project-page-item-image{
   width: 100%;
   height: 400px;
-  background-color: #642420;
+  background-color: #d89666;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,7 +118,7 @@
 .project-page-item-footer p{
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Inter';
+  /* font-family: 'Inter'; */
   text-transform: uppercase;
 }
 .project-page-item-footer img{
@@ -129,7 +131,7 @@
 
 /* Opacita Immagini ---------------------------------- */
 .project-page-item-image{
-  opacity: 0.4;
+  opacity: 0.8  ;
 }
 .project-page-item-image:hover{
   opacity: 1;

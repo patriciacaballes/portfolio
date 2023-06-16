@@ -1,33 +1,18 @@
-/* .contact-page{
-    display: flex;
-    flex-direction: column;
-} */
-.contact-page-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 150px;
-    height: fit-content;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0% 10%;
-}
-
-
-.contact-page-container img{
+.contact img{
     width: 500px;
     margin-right:-500px ;
     margin-bottom: 100px;
     animation: animate-rotate 20s infinite linear;
     opacity: 0.4;
 }
-.contact-page-container .talk-project{
+
+
+/* .contact-page-container .talk-project{
     opacity: 0.4;
-}
+} */
 
 
-.email{
+/* .email{
     display: flex;
     flex-direction: column;
     width:100%;
@@ -36,10 +21,10 @@
 .email h1{
     font-size: 20px;
     opacity: 1;
-}
-.info-contact{
+} */
+/* .info-contact{
     display: flex;
-}
+} */
 @keyframes animate-rotate {
     from{
         transform: rotate(0deg);
@@ -47,6 +32,21 @@
     to{
         transform: rotate(360deg);
     }
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .stroke{
+    font-size: 6rem;
+    -webkit-text-stroke: 0.5px #D89666;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    font-weight: bolder;
+    text-align: center;
 }
 
 @media(min-width:900px){
@@ -61,3 +61,4 @@
     }
 
 }
+

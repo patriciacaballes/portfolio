@@ -2,10 +2,6 @@
     font-size: 4rem;
     color: #D89666;
     font-weight: bolder;
-    
-
-    
-
 }
 p{
     color:#D89666;;
@@ -17,11 +13,14 @@ title p{
 }
 .not-colored{
     
-        font-size: 3rem;
-        -webkit-text-stroke: 0.5px #D89666;
-        -webkit-text-fill-color: transparent;
-        opacity: 0;
-        font-weight: 700;
+    font-size: 4.6rem;
+    -webkit-text-stroke: 0.4px #D89666;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    font-weight: bolder;
+    text-align: center;
+    /* font-family: 'Ogg'; */
+    /* text-decoration: .5px line-through; */
       
 }
 
@@ -57,8 +56,9 @@ title p{
   }
   #about p{
     padding: 10px;
- 
-    
+}
+.not-colored{
+    font-size: 6rem;
 }
   }
 

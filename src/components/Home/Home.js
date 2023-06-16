@@ -11,16 +11,6 @@ import Cursor from "../Cursor/Cursor";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
-  // const [name, setName] = useState("Pat");
-
-  // const handleMouseOver = () => {
-  //   setName("Patty");
-  // };
-
-  // const handleMouseOut = () => {
-  //   setName("Pat");
-  // };
-
   return (
     <div className="home">
       <div className="welcome">

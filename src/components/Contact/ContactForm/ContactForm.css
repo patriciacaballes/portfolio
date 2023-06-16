@@ -1,23 +1,30 @@
 #contact-form{
-    position: relative;
-    z-index: 100;
+    /* position: relative;
+    z-index: 100; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-#contact-form div div{
+#contact-form div{
     color: #d89666;  
 }
 #contact-form div{
     padding-top: 20px;
 }
 
-#contact-form div input,#contact-form div textarea{
+#contact-form input,#contact-form textarea{
+
    color: #d89666;
     background: none;
    background-color: none;
    border: none;
    border-bottom: 1px solid #d89666;
-   height: 40px;
-   width: 500px;
+    height: 40px;;
+    width: 80vw;
+    max-width: 600px;
 }
 .contact-page-container h1{
     margin-bottom: 0px;
@@ -43,3 +50,7 @@
     border-color: #d89666;
     margin:20px  0px ;
 }
+
+#contact-form input[type=text]:focus {
+    border: none
+  }

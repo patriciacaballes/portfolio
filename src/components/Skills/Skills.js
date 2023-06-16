@@ -24,11 +24,11 @@ export default function Skills() {
             <li>
               My <span className="not-colored title">Skills</span>
             </li>
-            <li>My Skills</li>
-            <li>
+            <li> My Skills</li>
+            <li className="skill1">
               My <span className="not-colored title">Skills</span>
             </li>
-            <li>My Skills</li>
+            <li className="skill1">My Skills</li>
           </ul>
         </div>
       </div>
