@@ -206,6 +206,9 @@
         width: 200px;
  
     }
+    .skill1{
+        display: inline-block;
+    }
     /* .home{
         padding: 20px;
     } */
