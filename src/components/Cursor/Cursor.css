@@ -1,8 +1,8 @@
 #cursor {
-  --size: 40px;
+  --size: 50px;
   position: fixed;
-  top: -1000;
-  left: -1000;
+  top: 0;
+  left: 0;
   height: var(--size);
   width: var(--size);
   background-color: transparent;
@@ -48,6 +48,12 @@
         0
       )
       scale(1);
+  }
+}
+
+@media (max-width:600px){
+  #cursor{
+    display: none;
   }
 }
 

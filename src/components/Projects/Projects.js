@@ -89,7 +89,7 @@ export default function Projects() {
               <a href="/">
                 <div className="project-page-item-header">
                   <h1>Per The</h1>
-                  <p>Html & CSS Responsice</p>
+                  <p>Html & CSS Responsive</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image5"></div>
                 <div className="project-page-item-footer">

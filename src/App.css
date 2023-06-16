@@ -126,7 +126,7 @@ body{
 
 
 
-/* cursor */
+/* cursor
 .cursor {
   display: block;
   width: 40px;
@@ -173,7 +173,7 @@ transform: translate(-50%);
       transform: scale(1);
       opacity: 0;
   }
-}
+} */
 
 
 
