@@ -1,4 +1,61 @@
-.cursor {
+#cursor {
+  --size: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--size);
+  width: var(--size);
+  background-color: transparent;
+  border: 1px solid #d89666;
+  border-radius: 50%;
+  transform: translate3d(
+    calc(100vw * var(--cursor-x) - var(--size) / 2),
+    calc(100vh * var(--cursor-y) - var(--size) / 2),
+    0
+  );
+  pointer-events: none;
+  z-index: 111;
+  transition: scale 0.2s ease-out;
+  will-change: transform;
+  animation-name: var(--cursor-animation);
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes click {
+  0% {
+    transform: translate3d(
+        calc(100vw * var(--cursor-x) - var(--size) / 2),
+        calc(100vh * var(--cursor-y) - var(--size) / 2),
+        0
+      )
+      scale(1);
+  }
+
+  50% {
+    transform: translate3d(
+        calc(100vw * var(--cursor-x) - var(--size) / 2),
+        calc(100vh * var(--cursor-y) - var(--size) / 2),
+        0
+      )
+      scale(2);
+  }
+
+  100% {
+    transform: translate3d(
+        calc(100vw * var(--cursor-x) - var(--size) / 2),
+        calc(100vh * var(--cursor-y) - var(--size) / 2),
+        0
+      )
+      scale(1);
+  }
+}
+
+
+
+
+
+/* .cursor {
     display: block;
     width: 40px;
     height: 40px;
@@ -46,4 +103,4 @@
     }
 }
 
-  
+   */

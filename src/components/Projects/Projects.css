@@ -131,6 +131,9 @@
 .project-page-item-image{
   opacity: 0.4;
 }
+.project-page-item-image:hover{
+  opacity: 1;
+}
 .project-page-item-image1{
 background-image: url(../../assets/img/project1.png);   
 }

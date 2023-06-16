@@ -1,6 +1,10 @@
-.contact-page-container{
+/* .contact-page{
     display: flex;
     flex-direction: column;
+} */
+.contact-page-container{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     margin-top: 150px;
@@ -9,18 +13,7 @@
     width: 80%;
     margin: 0% 10%;
 }
-.contact-page-container h1{
-    text-align: center;
-    word-spacing: 10px;
-    /* letter-spacing: 80%; */
-    font-size: 40px;
-    font-weight: bolder;
-    font-family: 'Roboto';
-    color: #d89666;
-    /* -webkit-text-stroke: 0.5px #d89666; */
-      /* -webkit-text-fill-color: transparent; */
-      
-}
+
 
 .contact-page-container img{
     width: 500px;

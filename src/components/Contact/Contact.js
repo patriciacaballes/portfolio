@@ -3,6 +3,7 @@ import "./Contact.css";
 import Header from "../Header/Header";
 import find from "../../assets/img/find2.svg";
 import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm/ContactForm";
 
 export default function Contact() {
   return (
@@ -10,15 +11,15 @@ export default function Contact() {
       <Header />
       <div className="contact-page">
         <div className="contact-page-container">
-          <h1 className="talk-project">Let's talk about the project?</h1>
           <div className="info-contact">
             <div className="email">
-              <p>Find out more about me on my social media </p>
-              <p>I’m looking forward to hear from you!</p>
-              <Link to="mailto:patriciacaballes04@gmail.coms" style={{ textDecoration: "none" }}>
+              <ContactForm />
+              {/* <p>Find out more about me on my social media </p>
+              <p>I’m looking forward to hear from you!</p> */}
+              {/* <Link to="mailto:patriciacaballes04@gmail.coms" style={{ textDecoration: "none" }}>
                 <h1>patriciacaballes04@gmail.com</h1>
-              </Link>
-              <p>Feel free to discuss a new projeject.</p>
+              </Link> */}
+              <p>Feel free to discuss a new project.</p>
             </div>
             <div className="find-out">
               <img src={find} alt="" />
@@ -26,6 +27,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
       {/* <Footer /> */}
     </div>
   );
