@@ -9,7 +9,6 @@ import "aos/dist/aos.css";
 export default function Projects() {
   return (
     <div>
-      <Header />
       <div className="project-page">
         <div className="project-and-work">
           <h1 className="h1-project stroke" data-aos="flip-down" data-aos-duration="3000">
