@@ -9,7 +9,7 @@ import mypic from "../../assets/img/patricia caballes.jpg";
 export default function Contact() {
   return (
     <div className="contact">
-      + <h2 className="stroke">Contact</h2>
+      <h2 className="stroke">Contact</h2>
       <div className="contact-form">
         <div>
           <ContactForm />
