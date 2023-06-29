@@ -19,32 +19,34 @@ export default function Projects() {
           <div className="project-page-items">
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>01/06</p>
+                <p>02/06</p>
               </div>
-              <a href="/">
+              <a href="https://www.figma.com/proto/TlKNDfBe2ENfTXssj6LZ9s/Parliamo-di-Th%C3%A8?page-id=84%3A4359&type=design&node-id=125-5611&viewport=584%2C-1363%2C0.42&t=D3TbPd6yrpm8xJHT-1&scaling=scale-down&starting-point-node-id=149%3A3783&show-proto-sidebar=1&mode=design">
                 <div className="project-page-item-header">
-                  <h1>Job Creation</h1>
-                  <p>web-app</p>
+                  <h1>Parliamo di The</h1>
+                  <p>A prototype of an app</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image1"></div>
                 <div className="project-page-item-footer">
-                  <p>A web app that offers work from home opportunities.</p>
+                  <p>An e-commerce app that sells tea.</p>
+
                   <img src={arrow} alt="" />
                 </div>
               </a>
             </div>
             <div className="project-page-item">
               <div className="project-page-item-number">
-                <p>02/06</p>
+                <p>01/06</p>
               </div>
-              <a href="https://www.figma.com/file/TlKNDfBe2ENfTXssj6LZ9s/Parliamo-di-Th%C3%A8?type=design&node-id=106%3A1353&t=3W4oeakWnSF3LR8u-1">
+              <a href="https://jobcreation.netlify.app/">
                 <div className="project-page-item-header">
-                  <h1>Parliamo di The</h1>
-                  <p>A prototype of an app</p>
+                  <h1>Job Creation</h1>
+                  <p>web-app</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image2"></div>
                 <div className="project-page-item-footer">
-                  <p>An e-commerce app that sells tea.</p>
+                  <p>A web app that offers work from home opportunities.</p>
+
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -53,14 +55,14 @@ export default function Projects() {
               <div className="project-page-item-number">
                 <p>03/06</p>
               </div>
-              <a href="https://xd.adobe.com/view/0177661e-b203-46ac-a58d-7cf7b3d95991-5424/screen/a2ff6b48-9b43-4497-a55d-c56c9caa76cc">
+              <a href="https://www.figma.com/file/cpRmphTOzxYjKrvgQGWcqM/Interaction-Design?type=design&node-id=67%3A842&mode=design&t=993rT6u4P7GEW3ct-1">
                 <div className="project-page-item-header">
-                  <h1>Interaction Design</h1>
-                  <p>Prototype layout in Adobe XD</p>
+                  <h1>GOOD MORNING</h1>
+                  <p>Prototype layout in FIGMA</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image3"></div>
                 <div className="project-page-item-footer">
-                  <p>Digital prototype in Adobe XD based on wireframes</p>
+                  <p>Digital prototype in FIGMA based on wireframes</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -69,14 +71,14 @@ export default function Projects() {
               <div className="project-page-item-number">
                 <p>04/06</p>
               </div>
-              <a href="/">
+              <a href="https://nexhool.metaproject.xyz/">
                 <div className="project-page-item-header">
-                  <h1>Pizza Slice</h1>
-                  <p>Dashboard</p>
+                  <h1>Nexthool</h1>
+                  <p>Landing page</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image4"></div>
                 <div className="project-page-item-footer">
-                  <p>A dashboard that collects data from a pizzeria. using PHPmyAdmin</p>
+                  <p>represent the school of the future</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -85,14 +87,14 @@ export default function Projects() {
               <div className="project-page-item-number">
                 <p>05/06</p>
               </div>
-              <a href="/">
+              <a href="https://www.figma.com/proto/0Ku9VOWx9V3EdqB63ANYAO/EAST?page-id=363%3A2016&type=design&node-id=363-2022&viewport=66%2C297%2C0.31&t=7x40L1OjSBTUjPWz-1&scaling=scale-down&starting-point-node-id=363%3A2022&show-proto-sidebar=1&mode=design">
                 <div className="project-page-item-header">
-                  <h1>Per The</h1>
-                  <p>Html & CSS Responsive</p>
+                  <h1>Fly Track</h1>
+                  <p>Digital prototype in FIGMA based on wireframes</p>
                 </div>
                 <div className="project-page-item-image project-page-item-image5"></div>
                 <div className="project-page-item-footer">
-                  <p>A simple but modern code.</p>
+                  <p>Track your travel details</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
@@ -108,7 +110,7 @@ export default function Projects() {
                 </div>
                 <div className="project-page-item-image project-page-item-image6"></div>
                 <div className="project-page-item-footer">
-                  <p>Information About Avatar</p>
+                  <p>Information About Avatar film</p>
                   <img src={arrow} alt="" />
                 </div>
               </a>
