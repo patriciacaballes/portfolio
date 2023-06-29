@@ -103,7 +103,7 @@ export default function Projects() {
               <div className="project-page-item-number">
                 <p>06/06</p>
               </div>
-              <a href="https://www.figma.com/file/EiCymz7ucsdQ3GvrkKDkmA/01_Avatar?type=design&node-id=122%3A1507&t=EADJzI6RvGYOmoXY-1">
+              <a href="https://www.figma.com/proto/EiCymz7ucsdQ3GvrkKDkmA/01_Avatar?page-id=0%3A1&type=design&node-id=57-109&viewport=194%2C320%2C0.07&t=L1ueRtZWq7AsEDSh-1&scaling=scale-down&starting-point-node-id=57%3A69&mode=design">
                 <div className="project-page-item-header">
                   <h1>Avatar 1 & 2</h1>
                   <p>a website prototype in Figma.</p>
